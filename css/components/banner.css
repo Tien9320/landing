@@ -1,0 +1,52 @@
+.banner{
+  background-image: url('../../images/background.png');
+  background-position: center;
+  background-size: cover;
+  padding: 210px;
+  color: #fff;
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+.container > p{
+  color:rgb(226, 226, 226) ;
+  padding-bottom: 20px;
+}
+.container > a{
+  background-color: #27dd8b;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 32px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  border: 1px solid rgb(227, 227, 227);
+  box-shadow: 0 5px 10px rgb(227, 227, 227);
+  border-radius: 4px;
+  text-align: center;
+  padding: 30px 20px;
+}
+.card > img{
+  height: 100px;
+}
+.footer{
+  padding: 50px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #313131;
+}
+.links > a{
+  font-size: 35px;
+  color: #27dd8b;
+}
+.footer > p{
+  color: #707070;
+}
+.footer > p i{
+  color: red;
+}
